@@ -12,7 +12,7 @@
               <ul class="menu-items">
                   <li><router-link
             to="/"
-            class="font-weight-medium text-decoration-none"
+            class="font-weight-bold text-decoration-none"
             style="color: #004d40"
           >
             Home
@@ -20,7 +20,7 @@
           </li>
                   <li><router-link
               to="/about"
-              class="font-weight-medium text-decoration-none"
+              class="font-weight-bold text-decoration-none"
               style="color: #004d40"
             >
               About

@@ -1,5 +1,5 @@
 <template>
-  <div >
+  <div>
     <section class="about-section">
       <div class="container">
         <div class="row">
@@ -22,21 +22,22 @@
                 distributed nationwide to grocery shops, departmental stores and
                 food marts. We also export to Europe, Asia, USA and other parts
                 of Africa. Our range of food products are Palm Oil, Garri,
-                Abacha(cassava flakes), Melon, Ogbono, Kilishi (Beef Jerky), Suya
-                Pepper, Kuli kuli (Peanut Bars), Groundnut oil (kulikuli oil only),
-                Cocoyam, flour Pap, flour Bambara/Okpa, flour Bambara seed, Fufu,
-                flour Yam, flour Unripe plantain.
+                Abacha(cassava flakes), Melon, Ogbono, Kilishi (Beef Jerky),
+                Suya Pepper, Kuli kuli (Peanut Bars), Groundnut oil (kulikuli
+                oil only), Cocoyam, flour Pap, flour Bambara/Okpa, flour Bambara
+                seed, Fufu, flour Yam, flour Unripe plantain.
               </div>
               <div class="text">
-            <h3>
-   We provide Natural Spices such as:
-            </h3><br> 
-    Ginger powder, garlic powder, Tumeric Powder, Suya spice, Pepper soup spice etc
-          </div>
-          <div class="text"> <h3>
-    And Agro Commodities such as:
-              </h3> <br> 
-      Cashew and Cocoa etc</div>
+                <h3>We provide Natural Spices such as:</h3>
+                <br />
+                Ginger powder, garlic powder, Tumeric Powder, Suya spice, Pepper
+                soup spice etc
+              </div>
+              <div class="text">
+                <h3>And Agro Commodities such as:</h3>
+                <br />
+                Cashew and Cocoa etc
+              </div>
               <div class="btn-box">
                 <a href="#" class="theme-btn btn-style-one">Contact Us</a>
               </div>
@@ -63,49 +64,36 @@
         <div class="text">
           <h4>At our facilities we have the following:</h4>
           <ul>
-            <li>
-          1. State of the Art Infrastructure
-          </li>
-          <li>
-          2. Dedicated and well trained workforce 
-          </li>
-          <li>
-          3. Global Partnership
-          </li>
-          <li>
-          4. Local Experience
-          </li>
-          <li>
-          5. Full understanding of healthy foods and spices
-          </li>
-          </ul> 
-
-   
-
+            <li>1. State of the Art Infrastructure</li>
+            <li>2. Dedicated and well trained workforce</li>
+            <li>3. Global Partnership</li>
+            <li>4. Local Experience</li>
+            <li>5. Full understanding of healthy foods and spices</li>
+          </ul>
         </div>
-        <div class="sec-title mt-10">     
-            <h5>Our Ambition </h5>
-          </div>
+        <div class="sec-title mt-10">
+          <h5>Our Ambition</h5>
+        </div>
         <div class="text">
-  To make rich and healthy African Foods and Spices easily accessible globally
+          To make rich and healthy African Foods and Spices easily accessible
+          globally
         </div>
-
       </div>
     </section>
 
     <section>
-      <Footer/>
+      <Footer />
     </section>
   </div>
 </template>
 
 <script>
-import Footer from '@/components/Footer.vue';
+import Footer from "@/components/Footer.vue";
 
 export default {
   name: "About",
   components: {
-    Footer
+    Footer,
   },
   data() {
     return {};
@@ -153,7 +141,6 @@ img {
   max-width: 100%;
   height: auto;
 }
-
 
 .sec-title {
   position: relative;
@@ -208,42 +195,6 @@ img {
   margin-left: -25px;
 }
 
-.list-style-one {
-  position: relative;
-}
-
-.list-style-one li {
-  position: relative;
-  font-size: 16px;
-  line-height: 26px;
-  color: #222222;
-  font-weight: 400;
-  padding-left: 35px;
-  margin-bottom: 12px;
-}
-
-.list-style-one li:before {
-  content: "\f058";
-  position: absolute;
-  left: 0;
-  top: 0px;
-  display: block;
-  font-size: 18px;
-  padding: 0px;
-  color: #ff2222;
-  font-weight: 600;
-  -moz-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  line-height: 1.6;
-  font-family: "Font Awesome 5 Free";
-}
-
-.list-style-one li a:hover {
-  color: #004d40;
-}
 
 .btn-style-one {
   position: relative;
