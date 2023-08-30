@@ -36,12 +36,13 @@
             <div class="d-flex col">
               <svg-icon
                 type="mdi"
-                :path="food"
+                :path="spice"
+                
                 style="color: #004d40; height: 50px; width: 100px"
                 class="mr-2"
               ></svg-icon>
               <div>
-                <h3>Natural Spices</h3>
+                <h3>African Foods</h3>
                 <p>
                   We provide natural spices such as ginger powder, garlic
                   powder, tumeric powder, suya spices, pepper soup spices etc.
@@ -52,7 +53,7 @@
               <svg-icon
                 style="color: #004d40; height: 50px; width: 100px"
                 type="mdi"
-                :path="spice"
+                :path="food"
                 class="mr-2"
               ></svg-icon>
               <div>
