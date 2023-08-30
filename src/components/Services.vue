@@ -11,12 +11,13 @@
 
                                 <v-card-title v-text="card.title"></v-card-title>
                                 <v-card-subtitle >This is how business are made</v-card-subtitle>
-                                <v-card-subtitle class="d-flex"> <p class="mb-2 mr-3"  style="cursor: pointer"
-                          @click="
-                              $router.push({
-                                  name: card.to,
-                              })
-                              ">View More</p> <svg-icon type="mdi" :path="path"></svg-icon></v-card-subtitle>
+                                <v-card-subtitle class="d-flex"
+                                style="cursor: pointer"
+                              @click="
+                                  $router.push({
+                                      name: card.to,
+                                  }) "> <p class="mb-2 mr-3"  
+                              >View More</p> <svg-icon type="mdi" :path="path"></svg-icon></v-card-subtitle>
                             </v-img>
 
                         </v-card>
