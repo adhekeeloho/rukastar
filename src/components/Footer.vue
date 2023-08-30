@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer-section">
+  <footer class="footer-section" style="font-family: 'Poppins', sans-serif">
     <div class="container">
       <div class="footer-content pt-5 pb-5">
         <div class="row">

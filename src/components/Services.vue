@@ -14,9 +14,9 @@
                                 <v-card-subtitle class="d-flex"> <p class="mb-2 mr-3"  style="cursor: pointer"
                           @click="
                               $router.push({
-                                  name: 'about',
+                                  name: card.to,
                               })
-                              ">Learn More</p> <svg-icon type="mdi" :path="path"></svg-icon></v-card-subtitle>
+                              ">View More</p> <svg-icon type="mdi" :path="path"></svg-icon></v-card-subtitle>
                             </v-img>
 
                         </v-card>
@@ -38,9 +38,9 @@ export default {
     data: () => ({
         path: mdiArrowRight,
         cards: [
-            { title: 'African Foods', src: 'https://cdn.vuetifyjs.com/images/cards/house.jpg', flex: 4 },
-            { title: 'Natural Spices', src: 'https://cdn.vuetifyjs.com/images/cards/road.jpg', flex: 4 },
-            { title: 'Agro Commodities', src: 'https://cdn.vuetifyjs.com/images/cards/plane.jpg', flex: 4 },
+            { title: 'African Foods', src: 'https://cdn.vuetifyjs.com/images/cards/house.jpg', flex: 4, to: "africanFood" },
+            { title: 'Natural Spices', src: 'https://cdn.vuetifyjs.com/images/cards/road.jpg', flex: 4, to: "spices" },
+            { title: 'Agro Commodities', src: 'https://cdn.vuetifyjs.com/images/cards/plane.jpg', flex: 4, to: "agroCommodities" },
         ],
     }),
 }
