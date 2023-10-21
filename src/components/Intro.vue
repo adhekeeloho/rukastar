@@ -14,7 +14,7 @@
           <v-img
             cover
             class="rounded"
-            :src="require('../assets/African_Dishes.jpg')"
+            :src="require('../assets/AllFood.jpg')"
             height="600px"
           />
         </v-col>
@@ -44,8 +44,7 @@
               <div>
                 <h3>African Foods</h3>
                 <p>
-                  We provide natural spices such as ginger powder, garlic
-                  powder, tumeric powder, suya spices, pepper soup spices etc.
+                  We provide food items such as palm oil, groundnut oil, Ijebu Garri, Egusi, Melon etc.
                 </p>
               </div>
             </div>
@@ -130,7 +129,7 @@ export default {
   }
 
   .help {
-    margin: 5px;
+    margin: 0px;
     position: 0;
     top: 0x;
   }
@@ -139,6 +138,38 @@ export default {
     display: flex;
     flex-direction: column-reverse;
   }
+
+  .twelve h1 {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  width: 60px;
+  text-align: center;
+  margin: auto;
+  white-space: nowrap;
+  padding-bottom: 13px;
+  font-family: "Playfair Display", serif;
+}
+.twelve h1:before {
+  background-color: #218676;
+  content: "";
+  display: block;
+  height: 4px;
+  width: 40px;
+  margin-bottom: 5px;
+}
+.twelve h1:after {
+  background-color: #218676;
+  content: "";
+  display: block;
+  position: relative;
+  left: 0px;
+  bottom: 0;
+  height: 4px;
+  width: 60px;
+  margin-bottom: 0.25em;
+}
 }
 
 .twelve h1 {

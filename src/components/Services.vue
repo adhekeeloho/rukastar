@@ -39,9 +39,9 @@ export default {
     data: () => ({
         path: mdiArrowRight,
         cards: [
-            { title: 'African Foods', src: 'https://cdn.vuetifyjs.com/images/cards/house.jpg', flex: 4, to: "africanFood" },
-            { title: 'Natural Spices', src: 'https://cdn.vuetifyjs.com/images/cards/road.jpg', flex: 4, to: "spices" },
-            { title: 'Agro Commodities', src: 'https://cdn.vuetifyjs.com/images/cards/plane.jpg', flex: 4, to: "agroCommodities" },
+            { title: 'African Foods', src: require("../assets/kulikuli.jpg"), flex: 4, to: "africanFood" },
+            { title: 'Natural Spices', src: require("../assets/CameroonPepper2.jpg"), flex: 4, to: "spices" },
+            { title: 'Agro Commodities', src: require("../assets/OkpaBambara.jpg"), flex: 4, to: "agroCommodities" },
         ],
     }),
 }

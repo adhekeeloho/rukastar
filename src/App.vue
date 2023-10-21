@@ -35,7 +35,7 @@
               width="60"
               height="60"
             />
-            <h5 class="mt-5">Ruka Star</h5></div>
+            <h5 class="mt-3">Ruka Star <br>International Limited</h5></div>
               
           </div>
       </nav>
@@ -129,7 +129,7 @@ export default {
     .navbar-container{
         display: block;
         position: relative;
-        height: 55px;
+        height: 56px;
     }
 
     .navbar-container input[type="checkbox"]{

@@ -88,17 +88,17 @@ export default {
     cards: [
       {
         title: "Cashew",
-        src: "https://cdn.vuetifyjs.com/images/cards/house.jpg",
+        src: require("../assets/AllFood.jpg"),
         flex: 4,
       },
       {
         title: "Bambara Seed",
-        src: "https://cdn.vuetifyjs.com/images/cards/road.jpg",
+        src: require("../assets/OkpaBambara.jpg"),
         flex: 4,
       },
       {
         title: "Cocoa",
-        src: "https://cdn.vuetifyjs.com/images/cards/plane.jpg",
+        src: require("../assets/AllFood.jpg"),
         flex: 4,
       },
     ],

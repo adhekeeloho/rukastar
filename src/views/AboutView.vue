@@ -3,7 +3,7 @@
     <section class="about-section">
       <div class="container">
         <div class="row">
-          <div class="content-column col-lg-6 col-md-12 col-sm-12 order-2">
+          <div class="content-column col-lg-6 col-md-12 col-sm-12 order-2 mt-5">
             <div class="inner-column">
               <div class="sec-title">
                 <span class="title">About Us</span>
@@ -39,9 +39,33 @@
                 Cashew and Cocoa etc
               </div>
               <div class="btn-box">
-                <a href="#" class="theme-btn btn-style-one">Contact Us</a>
+                <a  @click.stop="dialog = true" class="theme-btn btn-style-one">Contact Us</a>
               </div>
             </div>
+             <v-dialog v-model="dialog" max-width="290">
+            <v-card>
+              <v-card-title class="text-h5"> Contact Us </v-card-title>
+
+              <v-card-text>
+                <ul style="color: gray">
+                  <li>
+                    Contact Address: 12 SHEM JOSHUA STREET Opposite TRADEFAIR
+                    Satellite Town Lagos
+                  </li>
+                  <li>Contact Email: rukastar@gmail.com</li>
+                  <li>Contact Phone: +234 816 912 4298</li>
+                </ul>
+              </v-card-text>
+
+              <v-card-actions>
+                <v-spacer></v-spacer>
+
+                <v-btn style="color: #004d40" text @click="dialog = false">
+                  Cancel
+                </v-btn>
+              </v-card-actions>
+            </v-card>
+          </v-dialog>
           </div>
 
           <!-- Image Column -->
@@ -50,8 +74,9 @@
               <figure class="image-1">
                 <a href="#" class="lightbox-image" data-fancybox="images"
                   ><img
+                  style="height: 400px;"
                     title="Ruka Star"
-                    src="https://i.ibb.co/QP6Nmpf/image-1-about.jpg"
+                    src="../assets/AllFood.jpg"
                     alt=""
                 /></a>
               </figure>
@@ -95,9 +120,9 @@ export default {
   components: {
     Footer,
   },
-  data() {
-    return {};
-  },
+  data: () => ({
+    dialog: false,
+  }),
 };
 </script>
 

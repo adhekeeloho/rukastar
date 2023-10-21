@@ -15,6 +15,19 @@
           </div>
         </v-card-text>
       </v-card>
+
+      <div>
+        <v-row>
+          <v-col>
+            <v-img
+              contain
+              class="rounded"
+              :src="require('../assets/Ad.jpg')"
+              height="600px"
+            />
+          </v-col>
+        </v-row>
+      </div>
     </div>
 </template>
 <style scoped>

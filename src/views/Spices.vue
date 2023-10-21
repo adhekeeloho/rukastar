@@ -87,32 +87,32 @@ export default {
     cards: [
       {
         title: "Suya Pepper",
-        src: "https://cdn.vuetifyjs.com/images/cards/house.jpg",
+        src: require("../assets/SuyaPepper.jpg"),
         flex: 4,
       },
       {
         title: "Ginger Powder",
-        src: "https://cdn.vuetifyjs.com/images/cards/road.jpg",
+        src: require("../assets/AllFood.jpg"),
         flex: 4,
       },
       {
         title: "Garlic Powder",
-        src: "https://cdn.vuetifyjs.com/images/cards/plane.jpg",
+        src: require("../assets/AllFood.jpg"),
         flex: 4,
       },
       {
         title: "Tumeric Powder",
-        src: "https://cdn.vuetifyjs.com/images/cards/house.jpg",
+        src: require("../assets/AllFood.jpg"),
         flex: 4,
       },
       {
         title: "Suya Spice",
-        src: "https://cdn.vuetifyjs.com/images/cards/road.jpg",
+        src: require("../assets/SuyaPepper.jpg"),
         flex: 4,
       },
       {
         title: "Pepper Soup Spice",
-        src: "https://cdn.vuetifyjs.com/images/cards/plane.jpg",
+        src: require("../assets/AllFood.jpg"),
         flex: 4,
       },
     ],

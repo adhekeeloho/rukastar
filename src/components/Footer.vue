@@ -16,7 +16,8 @@
                     width="60"
                     height="60"
                 /></a>
-                <p style="color: white">RukaStar Limited</p>
+                
+                <h5 class="mt-3" style="color: white">Ruka Star <br>International Limited</h5>
               </div>
             </div>
           </div>
