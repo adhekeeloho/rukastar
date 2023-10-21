@@ -1,6 +1,6 @@
 <template>
     <div class="container mt-10" style="font-family: 'Poppins', sans-serif">
-        <div class="font-weight-bold" style="text-align: center; font-size: 30px; margin-top: 20px; ">Why choose Rukstar</div>
+        <div class="font-weight-bold" style="text-align: center; font-size: 30px; margin-top: 20px; ">Why choose Ruka Star</div>
         <div>
             <section class="overflow-hidden">
             <v-row no-gutters>

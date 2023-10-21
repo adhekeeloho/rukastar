@@ -106,8 +106,8 @@ export default {
         flex: 4,
       },
       {
-        title: "Suya Spice",
-        src: require("../assets/SuyaPepper.jpg"),
+        title: "Cameroon Pepper Spice",
+        src: require("../assets/cameroonPepper.jpg"),
         flex: 4,
       },
       {

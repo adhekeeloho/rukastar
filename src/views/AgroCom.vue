@@ -88,7 +88,7 @@ export default {
     cards: [
       {
         title: "Cashew",
-        src: require("../assets/AllFood.jpg"),
+        src: require("../assets/cashew.jpg"),
         flex: 4,
       },
       {
@@ -98,7 +98,7 @@ export default {
       },
       {
         title: "Cocoa",
-        src: require("../assets/AllFood.jpg"),
+        src: require("../assets/cocoa.jpg"),
         flex: 4,
       },
     ],
