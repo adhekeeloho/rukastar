@@ -38,7 +38,7 @@
                   Contact Address: 12 SHEM JOSHUA STREET Opposite TRADEFAIR
                   Satellite Town Lagos
                 </li>
-                <li>Contact Email: rukastar@gmail.com</li>
+                <li>Contact Email: Linfrance@yahoo.com</li>
                 <li>Contact Phone: +234 816 912 4298</li>
               </ul>
             </v-card-text>
